@@ -8,7 +8,7 @@ from p1.render import render_request
 
 VARIANT = "single"
 
-# Your instructions: what the model should do with the request and the five games.
+# My instructions: what the model should do with the request and the five games.
 INSTRUCTIONS = """Choose one of the five candidate games only if the information in its card or description shows that it meets every requirement in the request. If no candidate is clearly acceptable, decline by setting pick to null. Do not use outside knowledge.
 
 First identify the request's requirements. Count the writer among the players when they say “I,” “we,” or “us.” Treat play-time phrases such as “about an hour” as an upper limit. Wishes (“would be nice,” “would love,” and similar wording) are optional and must not rule out a game or cause a decline.
